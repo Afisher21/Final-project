@@ -9,6 +9,10 @@ struct Pancake:Ellipse{
   //Point button_location() const{return but_point;};
   int button_width() const {return 2*major();}
   int button_height() const {return 2*minor();}
+  
+  // Test of githubs ability to version control
+  // pancake 19
+  
   /*double area_out() const {return area;}
   private:
   double area=Pi*width*height;
