@@ -6,6 +6,7 @@ const double Pi=3.14159265359;
 struct Pancake : Ellipse{
 	Pancake(Point poi,int width,int height):p(poi),w(width),h(height), Ellipse(p,w,h){
 	elly=new Ellipse(p,w,h);
+	elly->set_fill_color(fl_rgb_color(153,101,21));// default draw brown pancakes
 	}
 	int button_width() const {return 2*w;}
 	int button_height() const {return 2*h;}
